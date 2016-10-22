@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Simon Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Passion+One:700|Yanone+Kaffeesatz" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class='container'>
+      <div class='simon-game'>
+        <div class='btn btn-top-left' id='1'></div>
+        <div class='btn btn-top-right' id='2'></div>
+        <div class='btn btn-bottom-left' id='3'></div>
+        <div class='btn btn-bottom-right' id='4'></div>
+
+        <div class='center'>
+          <h1 class='simon-title'>Simon</h1>
+          <div class='count-section'>
+            <div class='count-display'></div>
+            <p class='label'>COUNT</p>
+          </div>
+          <div class='start-section'>
+            <div class='start-btn'></div>
+            <p class='label'>START</p>
+          </div>
+          <div class='strict-section'>
+            <div class='strict-light'></div>
+            <div class='strict-btn'></div>
+            <p class='label'>STRICT</p>
+          </div>
+          <div class='onoff-section'>
+            <p class='label'>OFF</p>
+            <div class='onoff-btn'>
+              <div class='slider'></div>
+            </div>
+            <p class='label'>ON</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
